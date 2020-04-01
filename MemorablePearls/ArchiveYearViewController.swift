@@ -31,7 +31,9 @@ class ArchiveYearViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
         updateState(UserDefaults.standard.string(forKey: "year")! as String, UserDefaults.standard.string(forKey: "seas")! as String)
     }
     

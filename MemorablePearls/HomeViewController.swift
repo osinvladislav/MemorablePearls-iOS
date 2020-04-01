@@ -21,7 +21,6 @@ class HomeViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -205,21 +204,27 @@ class HomeViewController: UIViewController{
             switch i {
             case 2017:
                 UserDefaults.standard.set("1s", forKey: "seas")
+                UserDefaults.standard.set("1", forKey: "s")
                 isContinue = false
             case 2018:
                 UserDefaults.standard.set("2s", forKey: "seas")
+                UserDefaults.standard.set("2", forKey: "s")
                 isContinue = false
             case 2019:
                 UserDefaults.standard.set("3s", forKey: "seas")
+                UserDefaults.standard.set("3", forKey: "s")
                 isContinue = false
             case 2020:
                 UserDefaults.standard.set("4s", forKey: "seas")
+                UserDefaults.standard.set("4", forKey: "s")
                 isContinue = false
             case 2021:
                 UserDefaults.standard.set("5s", forKey: "seas")
+                UserDefaults.standard.set("5", forKey: "s")
                 isContinue = false
             case 2022:
                 UserDefaults.standard.set("6s", forKey: "seas")
+                UserDefaults.standard.set("6s", forKey: "s")
                 isContinue = false
             default:
                 i -= 6
@@ -228,18 +233,18 @@ class HomeViewController: UIViewController{
     }
     
     func clickOnCopy(alert: UIAlertAction!) {
-        UIPasteboard.general.string = textVerse.text
+        UIPasteboard.general.string = textVerse.text! + " " + textLink.text!
         let alert = UIAlertController(title: "Скопировано в буфер обмена!", message: nil, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Закрыть", style: .cancel, handler: nil))
         present(alert, animated: true)
     }
     
     func clickOnListen(alert: UIAlertAction!) {
-        let seas = UserDefaults.standard.string(forKey: "seas")! as String
+        let seas = UserDefaults.standard.string(forKey: "s")! as String
         let q = UserDefaults.standard.string(forKey: "q")! as String
         let v = UserDefaults.standard.string(forKey: "v")! as String
         
-        let path = Bundle.main.path(forResource: "audio/" +  seas + "/" + q + "/" + v + ".mp3", ofType: nil)!
+        let path = Bundle.main.path(forResource: "audio/" +  seas + "s/" + q + "/" + v + ".mp3", ofType: nil)!
         let url = URL(fileURLWithPath: path)
         do {
             mp = try AVAudioPlayer(contentsOf: url)

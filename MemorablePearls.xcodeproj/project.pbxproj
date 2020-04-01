@@ -20,6 +20,7 @@
 		3999CA6B2417FDB600C272C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999CA6A2417FDB600C272C3 /* HomeViewController.swift */; };
 		3999CA70241801BC00C272C3 /* TestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999CA6F241801BC00C272C3 /* TestsViewController.swift */; };
 		3999CA72241801CF00C272C3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999CA71241801CF00C272C3 /* SettingsViewController.swift */; };
+		399DB781243471DE008B4CDF /* ArchiveVerseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399DB780243471DE008B4CDF /* ArchiveVerseViewController.swift */; };
 		399F015724179FB10094826A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399F015624179FB10094826A /* AppDelegate.swift */; };
 		399F015924179FB10094826A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399F015824179FB10094826A /* SceneDelegate.swift */; };
 		399F016024179FB10094826A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399F015E24179FB10094826A /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		3999CA6A2417FDB600C272C3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3999CA6F241801BC00C272C3 /* TestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsViewController.swift; sourceTree = "<group>"; };
 		3999CA71241801CF00C272C3 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		399DB780243471DE008B4CDF /* ArchiveVerseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveVerseViewController.swift; sourceTree = "<group>"; };
 		399F015324179FB00094826A /* Памятные Жемчужины.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Памятные Жемчужины.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		399F015624179FB10094826A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		399F015824179FB10094826A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				3999CA6A2417FDB600C272C3 /* HomeViewController.swift */,
 				394DC4DB2431F96D00526FD5 /* ArchiveYearViewController.swift */,
 				395F0CE524325F5E00749AF0 /* ArchiveQuartViewController.swift */,
+				399DB780243471DE008B4CDF /* ArchiveVerseViewController.swift */,
 				3999CA6F241801BC00C272C3 /* TestsViewController.swift */,
 				3999CA71241801CF00C272C3 /* SettingsViewController.swift */,
 				398E1C2824235B080085E53F /* DetailViewController.swift */,
@@ -200,6 +203,7 @@
 				394DC4DC2431F96D00526FD5 /* ArchiveYearViewController.swift in Sources */,
 				3999CA6B2417FDB600C272C3 /* HomeViewController.swift in Sources */,
 				3999CA72241801CF00C272C3 /* SettingsViewController.swift in Sources */,
+				399DB781243471DE008B4CDF /* ArchiveVerseViewController.swift in Sources */,
 				398E1C2A24235B080085E53F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

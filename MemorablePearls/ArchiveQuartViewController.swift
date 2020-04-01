@@ -21,7 +21,13 @@ class ArchiveQuartViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        initQuarts()
+    }
+    
+    func initQuarts() {
         let listOfMP = HomeViewController.returnSeasonByName(fileName: UserDefaults.standard.string(forKey: "s")! + "s")
         
         for (index, it) in (listOfMP?.enumerated())! {
@@ -43,6 +49,21 @@ class ArchiveQuartViewController: UIViewController {
                 textDate4.text = returnDates(startWeek, endWeek, Int(UserDefaults.standard.string(forKey: "y")!)!)[0] + " - " + returnDates(startWeek, endWeek, Int(UserDefaults.standard.string(forKey: "y")!)!)[1]
             default: break
             }
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch segue.identifier {
+        case "Segue1q":
+            UserDefaults.standard.set("1q", forKey: "q")
+        case "Segue2q":
+            UserDefaults.standard.set("2q", forKey: "q")
+        case "Segue3q":
+            UserDefaults.standard.set("3q", forKey: "q")
+        case "Segue4q":
+            UserDefaults.standard.set("4q", forKey: "q")
+        default:
+            break
         }
     }
     
