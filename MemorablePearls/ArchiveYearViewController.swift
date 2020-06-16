@@ -31,6 +31,26 @@ class ArchiveYearViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if UserDefaults.standard.bool(forKey: "mode") {
+            UserDefaults.standard.set(false, forKey: "mode")
+            UserDefaults.standard.set(true, forKey: "mode1")
+            switch UserDefaults.standard.string(forKey: "year")! + " год" {
+            case textYear1.text:
+                performSegue(withIdentifier: "Segue1", sender: view)
+            case textYear2.text:
+                performSegue(withIdentifier: "Segue2", sender: view)
+            case textYear3.text:
+                performSegue(withIdentifier: "Segue3", sender: view)
+            case textYear4.text:
+                performSegue(withIdentifier: "Segue4", sender: view)
+            case textYear5.text:
+                performSegue(withIdentifier: "Segue5", sender: view)
+            case textYear6.text:
+                performSegue(withIdentifier: "Segue6", sender: view)
+            default:
+                break
+            }
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -50,6 +70,7 @@ class ArchiveYearViewController: UIViewController {
         textSeason4.text = returnSeas(cS[cS.startIndex])[3] + " сезон"
         textSeason5.text = returnSeas(cS[cS.startIndex])[4] + " сезон"
         textSeason6.text = returnSeas(cS[cS.startIndex])[5] + " сезон"
+        
     }
     
     func returnSeas(_ seas: Character) -> [String] {

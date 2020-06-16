@@ -21,6 +21,21 @@ class ArchiveQuartViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if UserDefaults.standard.bool(forKey: "mode1") {
+            UserDefaults.standard.set(false, forKey: "mode1")
+            switch UserDefaults.standard.string(forKey: "q")! {
+            case "1q":
+                performSegue(withIdentifier: "Segue1q", sender: view)
+            case "2q":
+                performSegue(withIdentifier: "Segue2q", sender: view)
+            case "3q":
+                performSegue(withIdentifier: "Segue3q", sender: view)
+            case "4q":
+                performSegue(withIdentifier: "Segue4q", sender: view)
+            default:
+                break
+            }
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -50,6 +65,7 @@ class ArchiveQuartViewController: UIViewController {
             default: break
             }
         }
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

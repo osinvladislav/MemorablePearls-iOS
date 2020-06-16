@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FBE3CBA1-71B5-418E-A114-1019ACA644B3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90F783F9-208E-49E9-9DAA-1A668E59D188"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MemorablePearls/Extensions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "UILabel"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27E9E565-68CB-4033-9FAD-A861C58D9892"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MemorablePearls/ArchiveYearViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "updateState(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA7DEE2F-44CE-473A-A3DA-C32AC41837C3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MemorablePearls/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "DetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DA7DEE2F-44CE-473A-A3DA-C32AC41837C3 - be6ef0483e251552"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x41f;&#x430;&#x43c;&#x44f;&#x442;&#x43d;&#x44b;&#x435;_&#x416;&#x435;&#x43c;&#x447;&#x443;&#x436;&#x438;&#x43d;&#x44b;.DetailViewController.textVerse.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "&#x41f;&#x430;&#x43c;&#x44f;&#x442;&#x43d;&#x44b;&#x435; &#x416;&#x435;&#x43c;&#x447;&#x443;&#x436;&#x438;&#x43d;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thevladoss/Documents/GitHub/MemorablePearls-iOS/MemorablePearls/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "DA7DEE2F-44CE-473A-A3DA-C32AC41837C3 - efc1c7ec1508f14e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x41f;&#x430;&#x43c;&#x44f;&#x442;&#x43d;&#x44b;&#x435;_&#x416;&#x435;&#x43c;&#x447;&#x443;&#x436;&#x438;&#x43d;&#x44b;.DetailViewController.textVerse.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "&#x41f;&#x430;&#x43c;&#x44f;&#x442;&#x43d;&#x44b;&#x435; &#x416;&#x435;&#x43c;&#x447;&#x443;&#x436;&#x438;&#x43d;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thevladoss/Documents/GitHub/MemorablePearls-iOS/MemorablePearls/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "DA7DEE2F-44CE-473A-A3DA-C32AC41837C3 - b0f065f4eaa4ec5f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x41f;&#x430;&#x43c;&#x44f;&#x442;&#x43d;&#x44b;&#x435;_&#x416;&#x435;&#x43c;&#x447;&#x443;&#x436;&#x438;&#x43d;&#x44b;.DetailViewController.textVerse.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "&#x41f;&#x430;&#x43c;&#x44f;&#x442;&#x43d;&#x44b;&#x435; &#x416;&#x435;&#x43c;&#x447;&#x443;&#x436;&#x438;&#x43d;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thevladoss/Documents/GitHub/MemorablePearls-iOS/MemorablePearls/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "DA7DEE2F-44CE-473A-A3DA-C32AC41837C3 - 23192db8a63f2e03"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x41f;&#x430;&#x43c;&#x44f;&#x442;&#x43d;&#x44b;&#x435;_&#x416;&#x435;&#x43c;&#x447;&#x443;&#x436;&#x438;&#x43d;&#x44b;.DetailViewController.textVerse.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "&#x41f;&#x430;&#x43c;&#x44f;&#x442;&#x43d;&#x44b;&#x435; &#x416;&#x435;&#x43c;&#x447;&#x443;&#x436;&#x438;&#x43d;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thevladoss/Documents/GitHub/MemorablePearls-iOS/MemorablePearls/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "DA7DEE2F-44CE-473A-A3DA-C32AC41837C3 - 92ac4dc23c4739d4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x41f;&#x430;&#x43c;&#x44f;&#x442;&#x43d;&#x44b;&#x435;_&#x416;&#x435;&#x43c;&#x447;&#x443;&#x436;&#x438;&#x43d;&#x44b;.DetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; &#x41f;&#x430;&#x43c;&#x44f;&#x442;&#x43d;&#x44b;&#x435;_&#x416;&#x435;&#x43c;&#x447;&#x443;&#x436;&#x438;&#x43d;&#x44b;.DetailViewController"
+                  moduleName = "&#x41f;&#x430;&#x43c;&#x44f;&#x442;&#x43d;&#x44b;&#x435; &#x416;&#x435;&#x43c;&#x447;&#x443;&#x436;&#x438;&#x43d;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thevladoss/Documents/GitHub/MemorablePearls-iOS/MemorablePearls/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "531">
+               </Location>
+               <Location
+                  uuid = "DA7DEE2F-44CE-473A-A3DA-C32AC41837C3 - b67c4d32f46630ba"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x41f;&#x430;&#x43c;&#x44f;&#x442;&#x43d;&#x44b;&#x435;_&#x416;&#x435;&#x43c;&#x447;&#x443;&#x436;&#x438;&#x43d;&#x44b;.DetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;&#x41f;&#x430;&#x43c;&#x44f;&#x442;&#x43d;&#x44b;&#x435;_&#x416;&#x435;&#x43c;&#x447;&#x443;&#x436;&#x438;&#x43d;&#x44b;.DetailViewController&gt;"
+                  moduleName = "&#x41f;&#x430;&#x43c;&#x44f;&#x442;&#x43d;&#x44b;&#x435; &#x416;&#x435;&#x43c;&#x447;&#x443;&#x436;&#x438;&#x43d;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thevladoss/Documents/GitHub/MemorablePearls-iOS/MemorablePearls/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "472">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

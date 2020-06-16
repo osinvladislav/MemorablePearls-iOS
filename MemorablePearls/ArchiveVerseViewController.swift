@@ -90,121 +90,89 @@ class ArchiveVerseViewController: UIViewController {
         
     }
     
-    @IBAction func tapCard1(_ sender: UITapGestureRecognizer) {
-        UserDefaults.standard.set("1", forKey: "v")
-        UserDefaults.standard.set(textDate1.text, forKey: "verseDate")
-        UserDefaults.standard.set(textVerse1.text, forKey: "verseText")
-        UserDefaults.standard.set(textLink1.text, forKey: "verseLinkShort")
-        UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink1"), forKey: "verseLinkLong")
-        present(DetailViewController(), animated: true, completion: nil)
-    }
-    
-    @IBAction func tapCard2(_ sender: UITapGestureRecognizer) {
-        UserDefaults.standard.set("2", forKey: "v")
-        UserDefaults.standard.set(textDate2.text, forKey: "verseDate")
-        UserDefaults.standard.set(textVerse2.text, forKey: "verseText")
-        UserDefaults.standard.set(textLink2.text, forKey: "verseLinkShort")
-        UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink2"), forKey: "verseLinkLong")
-        present(DetailViewController(), animated: true, completion: nil)
-    }
-    
-    @IBAction func tapCard3(_ sender: UITapGestureRecognizer) {
-        UserDefaults.standard.set("3", forKey: "v")
-        UserDefaults.standard.set(textDate3.text, forKey: "verseDate")
-        UserDefaults.standard.set(textVerse3.text, forKey: "verseText")
-        UserDefaults.standard.set(textLink3.text, forKey: "verseLinkShort")
-        UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink3"), forKey: "verseLinkLong")
-        present(DetailViewController(), animated: true, completion: nil)
-    }
-    
-    @IBAction func tapCard4(_ sender: UITapGestureRecognizer) {
-        UserDefaults.standard.set("4", forKey: "v")
-        UserDefaults.standard.set(textDate4.text, forKey: "verseDate")
-        UserDefaults.standard.set(textVerse4.text, forKey: "verseText")
-        UserDefaults.standard.set(textLink4.text, forKey: "verseLinkShort")
-        UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink4"), forKey: "verseLinkLong")
-        present(DetailViewController(), animated: true, completion: nil)
-    }
-    
-    @IBAction func tapCard5(_ sender: UITapGestureRecognizer) {
-        UserDefaults.standard.set("5", forKey: "v")
-        UserDefaults.standard.set(textDate5.text, forKey: "verseDate")
-        UserDefaults.standard.set(textVerse5.text, forKey: "verseText")
-        UserDefaults.standard.set(textLink5.text, forKey: "verseLinkShort")
-        UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink5"), forKey: "verseLinkLong")
-        present(DetailViewController(), animated: true, completion: nil)
-    }
-    
-    @IBAction func tapCard6(_ sender: UITapGestureRecognizer) {
-        UserDefaults.standard.set("6", forKey: "v")
-        UserDefaults.standard.set(textDate6.text, forKey: "verseDate")
-        UserDefaults.standard.set(textVerse6.text, forKey: "verseText")
-        UserDefaults.standard.set(textLink6.text, forKey: "verseLinkShort")
-        UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink6"), forKey: "verseLinkLong")
-        present(DetailViewController(), animated: true, completion: nil)
-    }
-    
-    @IBAction func tapCard7(_ sender: UITapGestureRecognizer) {
-        UserDefaults.standard.set("7", forKey: "v")
-        UserDefaults.standard.set(textDate7.text, forKey: "verseDate")
-        UserDefaults.standard.set(textVerse7.text, forKey: "verseText")
-        UserDefaults.standard.set(textLink7.text, forKey: "verseLinkShort")
-        UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink7"), forKey: "verseLinkLong")
-        present(DetailViewController(), animated: true, completion: nil)
-    }
-    
-    @IBAction func tapCard8(_ sender: UITapGestureRecognizer) {
-        UserDefaults.standard.set("8", forKey: "v")
-        UserDefaults.standard.set(textDate8.text, forKey: "verseDate")
-        UserDefaults.standard.set(textVerse8.text, forKey: "verseText")
-        UserDefaults.standard.set(textLink8.text, forKey: "verseLinkShort")
-        UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink8"), forKey: "verseLinkLong")
-        present(DetailViewController(), animated: true, completion: nil)
-    }
-    
-    @IBAction func tapCard9(_ sender: UITapGestureRecognizer) {
-        UserDefaults.standard.set("9", forKey: "v")
-        UserDefaults.standard.set(textDate9.text, forKey: "verseDate")
-        UserDefaults.standard.set(textVerse9.text, forKey: "verseText")
-        UserDefaults.standard.set(textLink9.text, forKey: "verseLinkShort")
-        UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink9"), forKey: "verseLinkLong")
-        present(DetailViewController(), animated: true, completion: nil)
-    }
-    
-    @IBAction func tapCard10(_ sender: UITapGestureRecognizer) {
-        UserDefaults.standard.set("10", forKey: "v")
-        UserDefaults.standard.set(textDate10.text, forKey: "verseDate")
-        UserDefaults.standard.set(textVerse10.text, forKey: "verseText")
-        UserDefaults.standard.set(textLink10.text, forKey: "verseLinkShort")
-        UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink10"), forKey: "verseLinkLong")
-        present(DetailViewController(), animated: true, completion: nil)
-    }
-    
-    @IBAction func tapCard11(_ sender: UITapGestureRecognizer) {
-        UserDefaults.standard.set("11", forKey: "v")
-        UserDefaults.standard.set(textDate11.text, forKey: "verseDate")
-        UserDefaults.standard.set(textVerse11.text, forKey: "verseText")
-        UserDefaults.standard.set(textLink11.text, forKey: "verseLinkShort")
-        UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink11"), forKey: "verseLinkLong")
-        present(DetailViewController(), animated: true, completion: nil)
-    }
-    
-    @IBAction func tapCard12(_ sender: UITapGestureRecognizer) {
-        UserDefaults.standard.set("12", forKey: "v")
-        UserDefaults.standard.set(textDate12.text, forKey: "verseDate")
-        UserDefaults.standard.set(textVerse12.text, forKey: "verseText")
-        UserDefaults.standard.set(textLink12.text, forKey: "verseLinkShort")
-        UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink12"), forKey: "verseLinkLong")
-        present(DetailViewController(), animated: true, completion: nil)
-    }
-    
-    @IBAction func tapCard13(_ sender: UITapGestureRecognizer) {
-        UserDefaults.standard.set("13", forKey: "v")
-        UserDefaults.standard.set(textDate13.text, forKey: "verseDate")
-        UserDefaults.standard.set(textVerse13.text, forKey: "verseText")
-        UserDefaults.standard.set(textLink13.text, forKey: "verseLinkShort")
-        UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink13"), forKey: "verseLinkLong")
-        present(DetailViewController(), animated: true, completion: nil)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch segue.identifier {
+        case "Segue1":
+            UserDefaults.standard.set("1", forKey: "v")
+            UserDefaults.standard.set(textDate1.text, forKey: "verseDate")
+            UserDefaults.standard.set(textVerse1.text, forKey: "verseText")
+            UserDefaults.standard.set(textLink1.text, forKey: "verseLinkShort")
+            UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink1"), forKey: "verseLinkLong")
+        case "Segue2":
+            UserDefaults.standard.set("2", forKey: "v")
+            UserDefaults.standard.set(textDate2.text, forKey: "verseDate")
+            UserDefaults.standard.set(textVerse2.text, forKey: "verseText")
+            UserDefaults.standard.set(textLink2.text, forKey: "verseLinkShort")
+            UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink2"), forKey: "verseLinkLong")
+        case "Segue3":
+            UserDefaults.standard.set("3", forKey: "v")
+            UserDefaults.standard.set(textDate3.text, forKey: "verseDate")
+            UserDefaults.standard.set(textVerse3.text, forKey: "verseText")
+            UserDefaults.standard.set(textLink3.text, forKey: "verseLinkShort")
+            UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink3"), forKey: "verseLinkLong")
+        case "Segue4":
+            UserDefaults.standard.set("4", forKey: "v")
+            UserDefaults.standard.set(textDate4.text, forKey: "verseDate")
+            UserDefaults.standard.set(textVerse4.text, forKey: "verseText")
+            UserDefaults.standard.set(textLink4.text, forKey: "verseLinkShort")
+            UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink4"), forKey: "verseLinkLong")
+        case "Segue5":
+            UserDefaults.standard.set("5", forKey: "v")
+            UserDefaults.standard.set(textDate5.text, forKey: "verseDate")
+            UserDefaults.standard.set(textVerse5.text, forKey: "verseText")
+            UserDefaults.standard.set(textLink5.text, forKey: "verseLinkShort")
+            UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink5"), forKey: "verseLinkLong")
+        case "Segue6":
+            UserDefaults.standard.set("6", forKey: "v")
+            UserDefaults.standard.set(textDate6.text, forKey: "verseDate")
+            UserDefaults.standard.set(textVerse6.text, forKey: "verseText")
+            UserDefaults.standard.set(textLink6.text, forKey: "verseLinkShort")
+            UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink6"), forKey: "verseLinkLong")
+        case "Segue7":
+            UserDefaults.standard.set("7", forKey: "v")
+            UserDefaults.standard.set(textDate7.text, forKey: "verseDate")
+            UserDefaults.standard.set(textVerse7.text, forKey: "verseText")
+            UserDefaults.standard.set(textLink7.text, forKey: "verseLinkShort")
+            UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink7"), forKey: "verseLinkLong")
+        case "Segue8":
+            UserDefaults.standard.set("8", forKey: "v")
+            UserDefaults.standard.set(textDate8.text, forKey: "verseDate")
+            UserDefaults.standard.set(textVerse8.text, forKey: "verseText")
+            UserDefaults.standard.set(textLink8.text, forKey: "verseLinkShort")
+            UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink8"), forKey: "verseLinkLong")
+        case "Segue9":
+            UserDefaults.standard.set("9", forKey: "v")
+            UserDefaults.standard.set(textDate9.text, forKey: "verseDate")
+            UserDefaults.standard.set(textVerse9.text, forKey: "verseText")
+            UserDefaults.standard.set(textLink9.text, forKey: "verseLinkShort")
+            UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink9"), forKey: "verseLinkLong")
+        case "Segue10":
+            UserDefaults.standard.set("10", forKey: "v")
+            UserDefaults.standard.set(textDate10.text, forKey: "verseDate")
+            UserDefaults.standard.set(textVerse10.text, forKey: "verseText")
+            UserDefaults.standard.set(textLink10.text, forKey: "verseLinkShort")
+            UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink10"), forKey: "verseLinkLong")
+        case "Segue11":
+            UserDefaults.standard.set("11", forKey: "v")
+            UserDefaults.standard.set(textDate11.text, forKey: "verseDate")
+            UserDefaults.standard.set(textVerse11.text, forKey: "verseText")
+            UserDefaults.standard.set(textLink11.text, forKey: "verseLinkShort")
+            UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink11"), forKey: "verseLinkLong")
+        case "Segue12":
+            UserDefaults.standard.set("12", forKey: "v")
+            UserDefaults.standard.set(textDate12.text, forKey: "verseDate")
+            UserDefaults.standard.set(textVerse12.text, forKey: "verseText")
+            UserDefaults.standard.set(textLink12.text, forKey: "verseLinkShort")
+            UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink12"), forKey: "verseLinkLong")
+        case "Segue13":
+            UserDefaults.standard.set("13", forKey: "v")
+            UserDefaults.standard.set(textDate13.text, forKey: "verseDate")
+            UserDefaults.standard.set(textVerse13.text, forKey: "verseText")
+            UserDefaults.standard.set(textLink13.text, forKey: "verseLinkShort")
+            UserDefaults.standard.set(UserDefaults.standard.string(forKey: "fullLink13"), forKey: "verseLinkLong")
+        default:
+            break
+        }
     }
     
     @IBAction func longPress1(_ sender: UILongPressGestureRecognizer) {
@@ -288,6 +256,7 @@ class ArchiveVerseViewController: UIViewController {
     func initVerses() {
         let seas = UserDefaults.standard.string(forKey: "s")! as String
         let q = UserDefaults.standard.string(forKey: "q")! as String
+        print("audio/" +  seas + "s/" + q + "/all.mp3")
         let path = Bundle.main.path(forResource: "audio/" +  seas + "s/" + q + "/all.mp3", ofType: nil)!
         let url = URL(fileURLWithPath: path)
         do {

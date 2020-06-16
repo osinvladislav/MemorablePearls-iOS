@@ -28,11 +28,10 @@ class HomeViewController: UIViewController{
         initMainController()
     }
     
-    @IBAction func cardTouched(_ sender: UITapGestureRecognizer) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         UserDefaults.standard.set(textDate.text, forKey: "verseDate")
         UserDefaults.standard.set(textVerse.text, forKey: "verseText")
         UserDefaults.standard.set(textLink.text, forKey: "verseLinkShort")
-        present(DetailViewController(), animated: true, completion: nil)
     }
     
     @IBAction func cardLongPressed(_ sender: UILongPressGestureRecognizer) {
@@ -46,15 +45,17 @@ class HomeViewController: UIViewController{
     }
     
     @IBAction func toArchive(_ sender: UIButton) {
-        tabBarController?.selectedIndex = 1
+        UserDefaults.standard.set(UserDefaults.standard.string(forKey: "year"), forKey: "y")
     }
     
     @IBAction func toTrane(_ sender: UIButton) {
-        tabBarController?.selectedIndex = 2
+        UserDefaults.standard.set(UserDefaults.standard.integer(forKey: "qq"), forKey: "activeSelectRowTrane1")
+        UserDefaults.standard.set(UserDefaults.standard.integer(forKey: "yy"), forKey: "activeSelectRowTrane2")
     }
     
     @IBAction func toTest(_ sender: UIButton) {
-        tabBarController?.selectedIndex = 2
+        UserDefaults.standard.set(UserDefaults.standard.integer(forKey: "qq"), forKey: "activeSelectRowTest1")
+        UserDefaults.standard.set(UserDefaults.standard.integer(forKey: "yy"), forKey: "activeSelectRowTest2")
     }
     
     @IBAction func toSettings(_ sender: UIButton) {
@@ -112,19 +113,23 @@ class HomeViewController: UIViewController{
                 case 0:
                     cardVerse.backgroundColor = UIColor(named: "cl_quart_1")
                     UserDefaults.standard.set("1q", forKey: "q")
-                    UserDefaults.standard.set("1q", forKey: "qq")
+                    UserDefaults.standard.set(0, forKey: "qq")
+                    UserDefaults.standard.set(3, forKey: "yy")
                 case 1:
                     cardVerse.backgroundColor = UIColor(named: "cl_quart_2")
                     UserDefaults.standard.set("2q", forKey: "q")
-                    UserDefaults.standard.set("2q", forKey: "qq")
+                    UserDefaults.standard.set(1, forKey: "qq")
+                    UserDefaults.standard.set(3, forKey: "yy")
                 case 2:
                     cardVerse.backgroundColor = UIColor(named: "cl_quart_3")
                     UserDefaults.standard.set("3q", forKey: "q")
-                    UserDefaults.standard.set("3q", forKey: "qq")
+                    UserDefaults.standard.set(2, forKey: "qq")
+                    UserDefaults.standard.set(3, forKey: "yy")
                 case 3:
                     cardVerse.backgroundColor = UIColor(named: "cl_quart_4")
                     UserDefaults.standard.set("4q", forKey: "q")
-                    UserDefaults.standard.set("4q", forKey: "qq")
+                    UserDefaults.standard.set(3, forKey: "qq")
+                    UserDefaults.standard.set(3, forKey: "yy")
                 default:
                     break
                 }

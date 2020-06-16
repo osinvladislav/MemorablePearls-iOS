@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MemorablePearls.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<true/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>876436AB67CC3CBD9840C3EE5B62C595C764A243</string>
+				<key>dateExpires</key>
+				<string>22.04.2021</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>AVC44TV8U3.ru.paradox-studio.MemorablePearls</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>AVC44TV8U3</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>Памятные Жемчужины.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>6623edf4-a8da-44bd-9b5d-1b68b57687ff</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: ru.paradox-studio.MemorablePearls</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>AVC44TV8U3</string>
+				<key>name</key>
+				<string>Taras Osin</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

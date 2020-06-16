@@ -15,8 +15,10 @@
 		394D5AE7241BE73F009724C4 /* 6s.json in Resources */ = {isa = PBXBuildFile; fileRef = 394D5AE6241BE73F009724C4 /* 6s.json */; };
 		394DC4DC2431F96D00526FD5 /* ArchiveYearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394DC4DB2431F96D00526FD5 /* ArchiveYearViewController.swift */; };
 		395F0CE624325F5E00749AF0 /* ArchiveQuartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395F0CE524325F5E00749AF0 /* ArchiveQuartViewController.swift */; };
+		397BC48A2451B28500EC45E3 /* TestsTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BC4892451B28500EC45E3 /* TestsTestViewController.swift */; };
+		397BC48C2451D23700EC45E3 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BC48B2451D23700EC45E3 /* TestViewController.swift */; };
 		398E1C2A24235B080085E53F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E1C2824235B080085E53F /* DetailViewController.swift */; };
-		398E1C2B24235B080085E53F /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 398E1C2924235B080085E53F /* DetailViewController.xib */; };
+		39996DBD244D8C1400802D47 /* TraneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39996DBC244D8C1400802D47 /* TraneViewController.swift */; };
 		3999CA6B2417FDB600C272C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999CA6A2417FDB600C272C3 /* HomeViewController.swift */; };
 		3999CA70241801BC00C272C3 /* TestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999CA6F241801BC00C272C3 /* TestsViewController.swift */; };
 		3999CA72241801CF00C272C3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999CA71241801CF00C272C3 /* SettingsViewController.swift */; };
@@ -26,6 +28,7 @@
 		399F016024179FB10094826A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399F015E24179FB10094826A /* Main.storyboard */; };
 		399F016224179FB60094826A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399F016124179FB60094826A /* Assets.xcassets */; };
 		399F016524179FB60094826A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399F016324179FB60094826A /* LaunchScreen.storyboard */; };
+		39ED8790243C930200A32815 /* TestsTraneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39ED878F243C930200A32815 /* TestsTraneViewController.swift */; };
 		39EEE3D42430735D00006ACB /* audio in Resources */ = {isa = PBXBuildFile; fileRef = 39EEE3D32430735D00006ACB /* audio */; };
 /* End PBXBuildFile section */
 
@@ -38,12 +41,15 @@
 		394D5AE6241BE73F009724C4 /* 6s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 6s.json; sourceTree = "<group>"; };
 		394DC4DB2431F96D00526FD5 /* ArchiveYearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveYearViewController.swift; sourceTree = "<group>"; };
 		395F0CE524325F5E00749AF0 /* ArchiveQuartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveQuartViewController.swift; sourceTree = "<group>"; };
+		397BC4892451B28500EC45E3 /* TestsTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsTestViewController.swift; sourceTree = "<group>"; };
+		397BC48B2451D23700EC45E3 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		398E1C2824235B080085E53F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		398E1C2924235B080085E53F /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		39996DBC244D8C1400802D47 /* TraneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraneViewController.swift; sourceTree = "<group>"; };
 		3999CA6A2417FDB600C272C3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3999CA6F241801BC00C272C3 /* TestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsViewController.swift; sourceTree = "<group>"; };
 		3999CA71241801CF00C272C3 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		399DB780243471DE008B4CDF /* ArchiveVerseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveVerseViewController.swift; sourceTree = "<group>"; };
+		399DB7822436357E008B4CDF /* Памятные Жемчужины.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Памятные Жемчужины.entitlements"; sourceTree = "<group>"; };
 		399F015324179FB00094826A /* Памятные Жемчужины.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Памятные Жемчужины.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		399F015624179FB10094826A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		399F015824179FB10094826A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +57,7 @@
 		399F016124179FB60094826A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		399F016424179FB60094826A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		399F016624179FB60094826A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39ED878F243C930200A32815 /* TestsTraneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsTraneViewController.swift; sourceTree = "<group>"; };
 		39EEE3D32430735D00006ACB /* audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = audio; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,12 +97,15 @@
 				399F016124179FB60094826A /* Assets.xcassets */,
 				399F016324179FB60094826A /* LaunchScreen.storyboard */,
 				399F015E24179FB10094826A /* Main.storyboard */,
-				398E1C2924235B080085E53F /* DetailViewController.xib */,
 				3999CA6A2417FDB600C272C3 /* HomeViewController.swift */,
 				394DC4DB2431F96D00526FD5 /* ArchiveYearViewController.swift */,
 				395F0CE524325F5E00749AF0 /* ArchiveQuartViewController.swift */,
 				399DB780243471DE008B4CDF /* ArchiveVerseViewController.swift */,
 				3999CA6F241801BC00C272C3 /* TestsViewController.swift */,
+				39ED878F243C930200A32815 /* TestsTraneViewController.swift */,
+				397BC4892451B28500EC45E3 /* TestsTestViewController.swift */,
+				39996DBC244D8C1400802D47 /* TraneViewController.swift */,
+				397BC48B2451D23700EC45E3 /* TestViewController.swift */,
 				3999CA71241801CF00C272C3 /* SettingsViewController.swift */,
 				398E1C2824235B080085E53F /* DetailViewController.swift */,
 				394D5ADC241BE430009724C4 /* 1s.json */,
@@ -106,6 +116,7 @@
 				394D5AE6241BE73F009724C4 /* 6s.json */,
 				39EEE3D32430735D00006ACB /* audio */,
 				399F016624179FB60094826A /* Info.plist */,
+				399DB7822436357E008B4CDF /* Памятные Жемчужины.entitlements */,
 			);
 			path = MemorablePearls;
 			sourceTree = "<group>";
@@ -183,7 +194,6 @@
 				394D5AE1241BE67F009724C4 /* 3s.json in Resources */,
 				399F016024179FB10094826A /* Main.storyboard in Resources */,
 				394D5AE7241BE73F009724C4 /* 6s.json in Resources */,
-				398E1C2B24235B080085E53F /* DetailViewController.xib in Resources */,
 				394D5ADF241BE4EC009724C4 /* 2s.json in Resources */,
 				394D5AE5241BE6A9009724C4 /* 5s.json in Resources */,
 			);
@@ -198,9 +208,13 @@
 			files = (
 				399F015724179FB10094826A /* AppDelegate.swift in Sources */,
 				399F015924179FB10094826A /* SceneDelegate.swift in Sources */,
+				397BC48A2451B28500EC45E3 /* TestsTestViewController.swift in Sources */,
 				395F0CE624325F5E00749AF0 /* ArchiveQuartViewController.swift in Sources */,
+				39ED8790243C930200A32815 /* TestsTraneViewController.swift in Sources */,
+				397BC48C2451D23700EC45E3 /* TestViewController.swift in Sources */,
 				3999CA70241801BC00C272C3 /* TestsViewController.swift in Sources */,
 				394DC4DC2431F96D00526FD5 /* ArchiveYearViewController.swift in Sources */,
+				39996DBD244D8C1400802D47 /* TraneViewController.swift in Sources */,
 				3999CA6B2417FDB600C272C3 /* HomeViewController.swift in Sources */,
 				3999CA72241801CF00C272C3 /* SettingsViewController.swift in Sources */,
 				399DB781243471DE008B4CDF /* ArchiveVerseViewController.swift in Sources */,
@@ -348,18 +362,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = "MemorablePearls/Памятные Жемчужины.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z2GDTXHVZZ;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = AVC44TV8U3;
 				INFOPLIST_FILE = MemorablePearls/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.paradox.studio.MemorablePearls;
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.paradox-studio.MemorablePearls";
 				PRODUCT_NAME = "Памятные Жемчужины";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -370,18 +389,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_ENTITLEMENTS = "MemorablePearls/Памятные Жемчужины.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z2GDTXHVZZ;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = AVC44TV8U3;
 				INFOPLIST_FILE = MemorablePearls/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.paradox.studio.MemorablePearls;
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.paradox-studio.MemorablePearls";
 				PRODUCT_NAME = "Памятные Жемчужины";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

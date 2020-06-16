@@ -27,6 +27,8 @@ class DetailViewController: UIViewController {
         textDate.text = UserDefaults.standard.string(forKey: "verseDate")
         textVerse.text = UserDefaults.standard.string(forKey: "verseText")
         textLink.text = UserDefaults.standard.string(forKey: "verseLinkLong")
+        
+        view.backgroundColor = .systemBackground
     }
 
     @IBAction func clickItemCopy(_ sender: UIBarButtonItem) {
